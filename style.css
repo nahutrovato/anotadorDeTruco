@@ -1,0 +1,63 @@
+html{
+    height: 100vh;
+}
+
+body, input{
+    background-color: green;
+    color: white;
+}
+
+.blur{
+     border-color: gray;
+     color: gray;
+}
+    
+::placeholder{
+    color: white;
+}
+
+input{
+   border: 0;
+   border: 1px solid white;
+}
+
+*{
+    font-size: 105%;
+    font-weight: 700;   
+    text-align: center;
+}
+
+#screenOne > *{
+    width: 70%;
+    max-width: 400px;
+    margin: 5% 3%;
+}
+
+#screenOne{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.space > input{
+    width: 49%;
+
+}
+
+.right{
+    width: 100%;
+    text-align: right;
+}
+
+.right > input{
+    width: 40%;
+}
